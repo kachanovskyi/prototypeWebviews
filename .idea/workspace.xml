@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d14b78f-729b-4853-9a16-53ab3a515fc5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html/Appointment.html" afterPath="$PROJECT_DIR$/html/Appointment.html" />
-      <change beforePath="$PROJECT_DIR$/html/Children.html" afterPath="$PROJECT_DIR$/html/Children.html" />
-      <change beforePath="$PROJECT_DIR$/html/Details.html" afterPath="$PROJECT_DIR$/html/Details.html" />
-      <change beforePath="$PROJECT_DIR$/html/Executors.html" afterPath="$PROJECT_DIR$/html/Executors.html" />
-      <change beforePath="$PROJECT_DIR$/html/Funeral.html" afterPath="$PROJECT_DIR$/html/Funeral.html" />
-      <change beforePath="$PROJECT_DIR$/html/GiftsCharity.html" afterPath="$PROJECT_DIR$/html/GiftsCharity.html" />
-      <change beforePath="$PROJECT_DIR$/html/GiftsMoney.html" afterPath="$PROJECT_DIR$/html/GiftsMoney.html" />
-      <change beforePath="$PROJECT_DIR$/html/GiftsThings.html" afterPath="$PROJECT_DIR$/html/GiftsThings.html" />
-      <change beforePath="$PROJECT_DIR$/html/OwnedDetails.html" afterPath="$PROJECT_DIR$/html/OwnedDetails.html" />
-      <change beforePath="$PROJECT_DIR$/html/Special.html" afterPath="$PROJECT_DIR$/html/Special.html" />
-      <change beforePath="$PROJECT_DIR$/html/ValueDetails.html" afterPath="$PROJECT_DIR$/html/ValueDetails.html" />
-      <change beforePath="$PROJECT_DIR$/html/residuary.html" afterPath="$PROJECT_DIR$/html/residuary.html" />
-      <change beforePath="$PROJECT_DIR$/html/residuaryEstate.html" afterPath="$PROJECT_DIR$/html/residuaryEstate.html" />
+      <change beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Appointment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Appointment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/Appointment.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -70,6 +68,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/html/Appointment.html" />
+        <option value="$PROJECT_DIR$/index.css" />
       </list>
     </option>
   </component>
@@ -271,6 +270,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
           <folding />
         </state>
       </provider>
