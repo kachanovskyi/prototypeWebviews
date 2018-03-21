@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d14b78f-729b-4853-9a16-53ab3a515fc5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/html/Appointment.html" afterPath="$PROJECT_DIR$/html/Appointment.html" />
+      <change beforePath="$PROJECT_DIR$/html/Children.html" afterPath="$PROJECT_DIR$/html/Children.html" />
+      <change beforePath="$PROJECT_DIR$/html/Details.html" afterPath="$PROJECT_DIR$/html/Details.html" />
+      <change beforePath="$PROJECT_DIR$/html/Executors.html" afterPath="$PROJECT_DIR$/html/Executors.html" />
+      <change beforePath="$PROJECT_DIR$/html/Funeral.html" afterPath="$PROJECT_DIR$/html/Funeral.html" />
+      <change beforePath="$PROJECT_DIR$/html/GiftsCharity.html" afterPath="$PROJECT_DIR$/html/GiftsCharity.html" />
+      <change beforePath="$PROJECT_DIR$/html/GiftsMoney.html" afterPath="$PROJECT_DIR$/html/GiftsMoney.html" />
+      <change beforePath="$PROJECT_DIR$/html/GiftsThings.html" afterPath="$PROJECT_DIR$/html/GiftsThings.html" />
+      <change beforePath="$PROJECT_DIR$/html/OwnedDetails.html" afterPath="$PROJECT_DIR$/html/OwnedDetails.html" />
+      <change beforePath="$PROJECT_DIR$/html/Special.html" afterPath="$PROJECT_DIR$/html/Special.html" />
+      <change beforePath="$PROJECT_DIR$/html/ValueDetails.html" afterPath="$PROJECT_DIR$/html/ValueDetails.html" />
+      <change beforePath="$PROJECT_DIR$/html/residuary.html" afterPath="$PROJECT_DIR$/html/residuary.html" />
+      <change beforePath="$PROJECT_DIR$/html/residuaryEstate.html" afterPath="$PROJECT_DIR$/html/residuaryEstate.html" />
       <change beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,31 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Appointment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/Appointment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+            <state relative-caret-position="179">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/Details.html">
+      <file leaf-file-name="Special.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/Special.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="-1673">
+              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -49,11 +53,13 @@
     <findStrings>
       <find>../../index.css</find>
       <find>&quot;../../index.css&quot;</find>
+      <find>sin</find>
+      <find>label</find>
     </findStrings>
     <replaceStrings>
-      <replace>../../index.css</replace>
       <replace>../index.css</replace>
       <replace>&quot;../index.css&quot;</replace>
+      <replace>../../index.css</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -67,8 +73,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/Appointment.html" />
         <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/html/Details.html" />
+        <option value="$PROJECT_DIR$/html/ValueDetails.html" />
+        <option value="$PROJECT_DIR$/html/OwnedDetails.html" />
+        <option value="$PROJECT_DIR$/html/Children.html" />
+        <option value="$PROJECT_DIR$/html/Appointment.html" />
+        <option value="$PROJECT_DIR$/html/Executors.html" />
+        <option value="$PROJECT_DIR$/html/GiftsMoney.html" />
+        <option value="$PROJECT_DIR$/html/GiftsThings.html" />
+        <option value="$PROJECT_DIR$/html/GiftsCharity.html" />
+        <option value="$PROJECT_DIR$/html/residuaryEstate.html" />
+        <option value="$PROJECT_DIR$/html/residuary.html" />
+        <option value="$PROJECT_DIR$/html/Funeral.html" />
+        <option value="$PROJECT_DIR$/html/Special.html" />
       </list>
     </option>
   </component>
@@ -78,9 +96,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -221,7 +240,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -260,24 +279,112 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/Details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="317">
+          <caret line="132" column="95" lean-forward="false" selection-start-line="132" selection-start-column="95" selection-end-line="132" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ValueDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/OwnedDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/Appointment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="285">
+          <caret line="19" column="74" lean-forward="true" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Executors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/GiftsMoney.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="68" lean-forward="false" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/GiftsThings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="30" column="147" lean-forward="false" selection-start-line="30" selection-start-column="147" selection-end-line="30" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/GiftsCharity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/residuaryEstate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/residuary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Funeral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="22" column="82" lean-forward="false" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        <state relative-caret-position="179">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Special.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1673">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>

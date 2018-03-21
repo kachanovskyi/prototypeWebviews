@@ -13,6 +13,10 @@ html, body {
     justify-content: center;
 }
 
+.mt-15 {
+    margin-top: 15px;
+}
+
 .header {
     background-color: #F5F5F5;
     display: flex;
