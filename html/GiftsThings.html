@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Confirm Details</title>
+    <link rel="stylesheet" href="../../index.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+<form id="details-form" name="details-form" class="form">
+    <div class="header">
+        <p class="header__title">Gifts of Money</p>
+    </div>
+    <div class="content">
+        <p class="content__title">Please provide the following information:</p>
+
+       
+        <div class="content__item">
+            <label class="content__label">Persone 1
+                <input class="content__item__input input-text" type="text" name="Variations" id="variationsInput" placeholder="Enter Full Name"/>
+                 <input class="content__item__input input-text" type="text" name="Variations" id="variationsInput" placeholder="Enter Address"/>
+                 <input class="content__item__input input-text" type="text" name="Variations" id="variationsInput" placeholder="Amount in £"/>
+                <input type="button" class="button button-light" value="Add" onclick="addContentLabel(this)"/>
+               
+            </label>
+        </div>
+    </div>
+    <input type="button" class="button content__button" value="Done" data-toggle="modal" data-target="#myModal"/>
+</form>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="check_mark">
+                    <div class="sa-icon sa-success animate">
+                        <span class="sa-line sa-tip animateSuccessTip"></span>
+                        <span class="sa-line sa-long animateSuccessLong"></span>
+                        <div class="sa-placeholder"></div>
+                        <div class="sa-fix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

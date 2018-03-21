@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Confirm Details</title>
+    <link rel="stylesheet" href="../../index.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+<form id="details-form" name="details-form" class="form">
+    <div class="header">
+        <p class="header__title">Children and Grandchildren</p>
+    </div>
+    <div class="content">
+        <p class="content__title">Please provide the following information:</p>
+
+        <div class="Children">
+            <div class="content__item">
+                <label class="content__label">Child
+                    <input class="content__item__input input-text" type="text" name="Full name" id="nameInput"
+                           placeholder="Enter Full Name"/>
+                </label>
+                <label class="content__label">Date of Birth
+                    <input class="content__item__input input-date" type="date" name="Date of birth" id="birthDate"
+                           placeholder="Day/Month/Year"/>
+                </label>
+                <input type="button" class="button button-light" value="Add" onclick="addContentItem(this)"/>
+            </div>
+        </div>
+        <div class="Grandchildren">
+            <div class="content__item">
+                <label class="content__label">Grandchild
+                    <input class="content__item__input input-text" type="text" name="Full name" id="nameInput"
+                           placeholder="Enter Full Name"/>
+                </label>
+                <label class="content__label">Date of Birth
+                    <input class="content__item__input input-date" type="date" name="Date of birth" id="birthDate"
+                           placeholder="Day/Month/Year"/>
+                </label>
+                <input type="button" class="button button-light" value="Add" onclick="addContentItem(this)"/>
+            </div>
+        </div>
+
+    </div>
+    <input type="button" class="button content__button" value="Done" data-toggle="modal" data-target="#myModal"/>
+</form>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="check_mark">
+                    <div class="sa-icon sa-success animate">
+                        <span class="sa-line sa-tip animateSuccessTip"></span>
+                        <span class="sa-line sa-long animateSuccessLong"></span>
+                        <div class="sa-placeholder"></div>
+                        <div class="sa-fix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function addContentItem(obj) {
+        var contentItem = obj.parentElement;
+        var parent = contentItem.parentElement,
+            clone = contentItem.cloneNode(true);
+        var children = clone.children;
+
+        [].forEach.call(children, function (el) {
+            if(el.querySelectorAll('input').length) {
+                el.querySelectorAll('input')[0].value = "";
+            }
+        });
+
+        clone.removeChild(children[children.length - 1]);
+
+        if(clone.getElementsByClassName('button button-light').length) {
+
+        }
+        parent.insertBefore(clone, parent.children[0]);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Confirm Details</title>
+    <link rel="stylesheet" href="../../index.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+<div id="detailsCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active">
+            <form id="detailsForm" name="details-form" class="form">
+                <div class="header">
+                    <p class="header__title">Your details</p>
+                </div>
+                <div class="content">
+                    <p class="content__title">Please provide the following information:</p>
+
+                    <div class="content__item">
+                        <label class="content__label">Your Full Name (Inc title)
+                            <input class="content__item__input input-text" type="text" name="Full name" id="nameInput"
+                                   placeholder="Full Name"/>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">Any variations you have used
+                            <input class="content__item__input input-text" type="text" name="Variations"
+                                   id="variationsInput" placeholder="Variations you have used"/>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">Your Full Postal Address
+                            <input class="content__item__input input-text" type="text" name="Postal address"
+                                   id="addressInput" placeholder="Full Postal Address"/>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">Telephone numbers
+                            <input class="content__item__input input-text" type="text" name="Home telephone"
+                                   id="homeTelephoneInput" placeholder="Home telephone number"/>
+                            <input class="content__item__input input-text" type="text" name="Work telephone"
+                                   id="workTelephoneInput" placeholder="Work telephone number"/>
+                            <input class="content__item__input input-text" type="text" name="Mobile telephone"
+                                   id="mobileTelephoneInput" placeholder="Mobile telephone number"/>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">Date of Birth
+                            <input class="content__item__input input-date" type="date" name="Date of birth"
+                                   id="birthDate" placeholder="Day/Month/Year"/>
+                        </label>
+                    </div>
+                </div>
+                <input type="button" class="button content__button" value="Next" data-target="#featuresCarousel"
+                       data-slide-to="1" id="btnNext"/>
+            </form>
+        </div>
+
+        <div class="item">
+            <form id="partnerDetailsForm" name="details-form" class="form">
+                <div class="header">
+                    <p class="header__title">Your details</p>
+                </div>
+                <div class="content">
+                    <p class="content__title">Please provide the following information:</p>
+
+                    <div class="content__item">
+                        <label class="content__label">Your marital status
+                            <label class="content__label label-checkbox">Single
+                                <input type="checkbox" class="content__checkbox"/>
+                                <span class="content__checkmark"></span>
+                            </label>
+                            <label class="content__label label-checkbox">Engaged
+                                <input type="checkbox" class="content__checkbox"/>
+                                <span class="content__checkmark"></span>
+                            </label>
+                            <label class="content__label label-checkbox">Married
+                                <input type="checkbox" class="content__checkbox"/>
+                                <span class="content__checkmark"></span>
+                            </label>
+                            <label class="content__label label-checkbox">Widow(er)
+                                <input type="checkbox" class="content__checkbox"/>
+                                <span class="content__checkmark"></span>
+                            </label>
+                            <label class="content__label label-checkbox">Living as Man & Wife
+                                <input type="checkbox" class="content__checkbox"/>
+                                <span class="content__checkmark"></span>
+                            </label>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">Your Spouse/Partner’s Full Name
+                            <input class="content__item__input input-text" type="text" name="Variations"
+                                   id="variationsInput" placeholder="Full Name"/>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">Any variation that they have used
+                            <input class="content__item__input input-text" type="text" name="Postal address"
+                                   id="addressInput" placeholder="Variations they have used"/>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">His/Her date of birth
+                            <input class="content__item__input input-date" type="date" name="Date of birth"
+                                   id="birthDate" placeholder="Day/Month/Year"/>
+                        </label>
+                    </div>
+
+                    <div class="content__item">
+                        <label class="content__label">Does he/she wish to make a Will
+                            <div class="flex-direction-row">
+                                <label class="content__label label-checkbox flex-basis-half">Single
+                                    <input type="checkbox" class="content__checkbox"/>
+                                    <span class="content__checkmark"></span>
+                                </label>
+                                <label class="content__label label-checkbox flex-basis-half">Engaged
+                                    <input type="checkbox" class="content__checkbox"/>
+                                    <span class="content__checkmark"></span>
+                                </label>
+                            </div>
+                        </label>
+                    </div>
+
+                </div>
+                <input type="button" class="button content__button" value="Done" data-toggle="modal" data-target="#myModal"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="check_mark">
+                    <div class="sa-icon sa-success animate">
+                        <span class="sa-line sa-tip animateSuccessTip"></span>
+                        <span class="sa-line sa-long animateSuccessLong"></span>
+                        <div class="sa-placeholder"></div>
+                        <div class="sa-fix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#btnNext").on("click", function() {
+            $("#detailsCarousel").carousel("next");
+        });
+    });
+</script>
+</body>
+</html>
